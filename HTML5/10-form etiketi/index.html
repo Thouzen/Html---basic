@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 17%;
+            border:1px solid  black;
+        }
+    </style>
+    <!--input içinde value typenin içine yazı koyar placeholder ise soluk bir şekilde koyar
+    type password yaparsak yazıyı sansürler name ve ıd ise ne koyacaksak password ise name = şifre ıd 0 şifre vs
+input type radio şık açar name = gender vs yanına sayı yazarak çoklu seçim yapılır-->
+</head>
+<body>
+    <div>
+    <form action="https://www.google.com"> <!--avtion içine link koyarak yönlendirme yapılır-->
+        <!--form methodunu post yaparak kullanıcının girdiği şeyler gizlenir ör form method="POST"-->
+
+        <input type="text" placeholder="isim girin"> 
+        <br>
+        <br>
+        <input type="password" placeholder="şifrenizi girin">
+        <br>
+        <br>
+        <input type="radio" name="gender" value="erkek">erkek
+        <input type="radio" name="gender" value="kadın">kadın
+        <br>
+        <br>
+        <input type="submit" value="gönder">
+    </form>
+</div>
+</body>
+</html>
