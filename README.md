@@ -1,2 +1,2 @@
-# Html---basic
-only for beginners
+# Html İntermediate
+<doctype html>
